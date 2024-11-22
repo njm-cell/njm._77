@@ -1,0 +1,119 @@
+body{
+    background: url(./images/Background.jpg);
+    background-size: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.DV1{
+    backdrop-filter: blur(10px);
+}
+.TEX{
+    font-style: oblique;
+    font-size: 30px;
+    margin: 10px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+}
+.SSS{ 
+    background-color: red;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 115px;
+    border:NONE ;                        
+    cursor: pointer;
+    color: white;
+    margin: 15px;
+    transition: opacity 1s;
+    min-width: 50vh;
+} 
+.SSS:hover{
+    opacity: 0.8 ;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.15);
+}
+.SSS:active{
+    opacity: 0.5;
+}
+
+.JJJ{
+    background-color: transparent;
+    border-radius: 15px;
+    border-width:  1px; 
+    border-color: #7289da;
+    color: #7289da;
+    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s,border-color 0.15s, box-shadow 0.15s;
+    margin: 15px;  
+    min-width: 50vh;  
+}
+.JJJ:hover{
+    opacity: 0.8 ;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.15);
+}
+.JJJ:active{
+    background-color: rgb(41, 118, 255);
+    border-color: transparent;
+    color: white;
+    opacity: 0.5 ;
+}
+.TW{
+    background-color: #2964ff;
+    border-radius: 15px; 
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 15px;
+    min-width: 50vh;
+    transition: box-shadow 0.15s, opacity 0.15s;
+    
+}
+.TW:active{
+    background-color: transparent;
+    border-color:#2964ff ;
+    color: #2964ff;
+}
+
+.TW:hover{
+    opacity: 0.8 ;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.15);
+}
+.DW{
+    text-decoration: none;
+}
+.DW1{
+    background-color: transparent;
+    border-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 200px;
+    margin: 15px;
+    padding-right: 184px;
+    border-radius: 15px;
+    color: white;
+    translate: opacity 0.15s,box-shadow 0.15s,;
+}
+.DW1:hover{
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.15);
+}
+.DW1:active{
+    opacity: 0.5;
+    background-color: white;
+    color: rgb(105, 105, 105);
+    border-color:rgb(105, 105, 105) ;
+}
